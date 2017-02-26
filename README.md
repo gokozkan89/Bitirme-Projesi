@@ -1,3 +1,3 @@
 # Bitirme-Projesi
 Üniversite Bitirme Projesi
-![Alt text](/Giris.png "Giris Ekrani)
+![Alt text](/ScreenShot/Giris.png "Giris Ekrani)
