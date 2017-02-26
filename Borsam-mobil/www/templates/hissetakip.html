@@ -1,0 +1,33 @@
+<ion-view view-title="Hisse Takip">
+  <ion-content class="lightgray-bg">
+    <ion-refresher pulling-text="Kaydır ve yenile..." on-refresh="vm.takipListesiGetir()">
+    </ion-refresher>
+    <ion-list>
+      <div class="list list-inset">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" ng-model="txt" placeholder="Arama">
+        </label>
+      </div>
+      <ion-item class="item-divider">
+        <div class="col col-25" style="float:left;">Hisse</div>
+        <div class="col col-30" style="float:left;">Son Fiyat</div>
+        <div class="col col-30" style="float:left;">Değişim</div>
+        <div class="col col-15" style="float:left;">İzle</div>
+      </ion-item>
+      <ion-item class="custom-item" href="#/app/alsat/{{item.HisseKodu}}" collection-repeat="item in vm.liste | filter:{HisseKodu: txt}">
+        <div class="col col-25" style="float:left;">{{item.HisseKodu}}</div>
+        <div class="col col-30" style="float:left;">{{item.SonFiyat}}</div>
+        <div class="col col-30 {{item.DegisimCss}}" style="float:left;">% {{item.Degisim}}</div>
+        <div class="col col-15" style="float:left;">
+          <label class="toggle toggle-balanced">
+          <input type="checkbox" ng-model="item.Izle" ng-click="vm.takipListesineEkleCikar(item.Index, item.HisseKodu);vm.takipListesiGetir();$event.stopPropagation()">
+          <div class="track">
+            <div class="handle"></div>
+          </div>
+        </label>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
