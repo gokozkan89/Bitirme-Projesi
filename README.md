@@ -8,4 +8,4 @@
 (https://github.com/gokozkan89/Bitirme-Projesi/blob/master/ScreenShot/Takip.png?raw=true"Takip Ekrani")
 (https://github.com/gokozkan89/Bitirme-Projesi/blob/master/ScreenShot/Alsat.jpg?raw=true"Al-Sat Ekrani")
 https://github.com/gokozkan89/Borsam/blob/master/ScreenShot/Alsat.jpg
-
+https://raw.githubusercontent.com/gokozkan89/Borsam/master/ScreenShot/Giris.jpg
