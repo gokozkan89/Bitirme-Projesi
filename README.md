@@ -7,4 +7,5 @@
 (https://github.com/gokozkan89/Bitirme-Projesi/blob/master/ScreenShot/Portfoy.png?raw=true"Portfoy Ekrani")
 (https://github.com/gokozkan89/Bitirme-Projesi/blob/master/ScreenShot/Takip.png?raw=true"Takip Ekrani")
 (https://github.com/gokozkan89/Bitirme-Projesi/blob/master/ScreenShot/Alsat.jpg?raw=true"Al-Sat Ekrani")
+https://github.com/gokozkan89/Borsam/blob/master/ScreenShot/Alsat.jpg
 
